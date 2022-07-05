@@ -22,7 +22,7 @@ export default class FilterInput extends Component {
 
     return (
       <>
-        {state.contacts.length ? (
+        {state.contacts?.length ? (
           <label className={s.inputLabel}>
             Find contact by name
             <input
